@@ -11,6 +11,6 @@ include<stdio.h>
 	 f2=f2+f1;}
    return 0;
 //notice:
-//the program cones from a book 
+//the program comes from a book 
 //just ignore what I said  
 }
