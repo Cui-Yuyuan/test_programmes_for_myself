@@ -2,7 +2,7 @@ import random,turtle,math
 a=turtle.Pen()
 a.speed(0)
 def stps(c,b):
-    important turtle
+    import turtle
     turtle.penup()
     turtle.setposition(a,b)
     turtle.pendown()
