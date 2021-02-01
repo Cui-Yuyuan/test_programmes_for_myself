@@ -10,7 +10,7 @@ stps(-500,-500)
 size=10;x=20;y=10;c=["#afff79","#eeee01","#e03729b","#039982"]
 s=size
 def fd2(s):
-    important turtle
+    import turtle
     turtle.fd(2*s)
 def fds2(s):
     import turtle,math
