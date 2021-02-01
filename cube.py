@@ -27,4 +27,3 @@ def cubegen(x,s):
 for j in range(y):
     cubegen(x,s)
     a.stps(-500-3*j*s,-500-3*j*s)
-    
