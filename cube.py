@@ -6,8 +6,9 @@ s=20
 print("input start position(x,y),using enter to separate two numbers")
 stx=-200
 sty=-180
-print("input pensize")
+print("input pensize,speed")
 psz=8
+spd=0
 def stps(c,b):
 	import turtle
 	turtle.penup()
@@ -33,8 +34,8 @@ def cubegen(x,s):
         fds2(s);turtle.rt(45)
         fd2(s)
         
-turtle.speed(0)
-turtle.pensize(10)
+turtle.speed(spd)
+turtle.pensize(psz)
 
 stps(stx,sty)
 col=["#afff79","#81efa8","#8ade70","#8eefac","#eeee01","#e0729b","#039982"]
